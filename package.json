@@ -5,11 +5,12 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    
-    "test-unit": "jest",
 
-    "test": "npm run test-e2e",
-    "test-e2e": "cypress open"
+    "test": "npm run test-unit && npm run test-e2e-cli",
+    "test-unit": "jest",
+    "test-e2e": "cypress open",
+    "test-e2e-cli": "cypress run"
+   
   },
   "repository": {
     "type": "git",
