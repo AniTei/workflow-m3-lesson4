@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AniTei/workflow-m3-lesson4/issues"
   },
-  "homepage": "https://github.com/AniTei/workflow-m3-lesson4#readme"
+  "homepage": "https://github.com/AniTei/workflow-m3-lesson4#readme",
+  "devDependencies": {
+    "jest": "^29.2.0"
+  }
 }
