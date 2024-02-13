@@ -4,5 +4,5 @@ export default {
     color: "red",
     texture: "juicy",
     animalProduct: false,
-    rating: 3
+    rating: 7
   }
